@@ -43,9 +43,9 @@ function password() { // fonction permettent d'afficher ou non le message d'erre
 
 
 function evenement() { //initialise les evenements
-    txt_name.addEventListener("keypessed", prenom);
-    txt_lastname.addEventListener("keypressed", nom);
-    txt_password1.addEventListener("keypressed", password);
+    txt_name.addEventListener("keyup", prenom);
+    txt_lastname.addEventListener("keyup", nom);
+    txt_password1.addEventListener("keyup", password);
 }
 
 
