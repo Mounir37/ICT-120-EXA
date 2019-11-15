@@ -1,0 +1,24 @@
+.cacher {
+    color: white;
+}
+
+body{
+    font-family: Calibri;
+}
+
+#lbl_prenom{
+    background-color: firebrick;
+}
+
+#lbl_nom{
+    background-color: firebrick;
+}
+
+#txt_password1{
+    background-color: firebrick;
+}
+
+#txt_password2{
+    background-color: firebrick;
+}
+

@@ -1,0 +1,33 @@
+<!--
+ Auteur:    Mounir Fiaux
+ Titre:     Index
+ Projet:    Evaluation
+ date:      15.11.19
+ version:   0.1
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/Code.js"></script>
+</head>
+<body>
+<h2>Inscription au tchoukball club Ste-Croix</h2>
+<form action="motivation.html">
+    <label>Prénom</label><br><input id="txt_name" type="text" name="txtFirstName" minlength="3">
+    <div id="lbl_prenom">Invalide: trop court</div>
+    <label>Nom</label><br><input id="txt_lastname" type="text" name="txtLastName" minlength="3">
+    <div id="lbl_nom">Invalide: trop court</div>
+    <label>Mot de passe</label><br><input type="password" minlength="6">
+    <div id="txt_password1">Invalide: minimum 6 caractères</div>
+    <label>Confirmation</label><br><input type="password" minlength="6">
+    <div id="txt_password2">Invalide: différent</div>
+    <br>
+    <input type="submit" value="Envoyer">
+</form>
+</body>
+
+</html>
